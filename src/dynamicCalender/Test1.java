@@ -31,7 +31,7 @@ public class Test1 {
 	
 		driver.findElement(By.id("DepartDate")).click();
 		
-	
+	driver.findElement(By.xpath("//td[@data-month='2' and @data-year='2021']/a[text()='17']"))
 		
 driver.findElement(By.xpath("//td[@data-month='"+getmonth+"' and @data-year='"+year+"']/a[text()='"+getdate+"']")).click();
 	}
