@@ -1,67 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[createcustomer]]>
+      <![CDATA[]]>
     </line>
     <line>
-      <![CDATA[hello]]>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE3MDI2NzYxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
     </line>
     <line>
-      <![CDATA[deletecustomer]]>
+      <![CDATA[Log in to Facebook]]>
     </line>
     <line>
-      <![CDATA[createcustomer]]>
+      <![CDATA[https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
     </line>
     <line>
-      <![CDATA[deleteproject]]>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-25T20:23:39 IST" name="Suite" finished-at="2021-03-25T20:23:39 IST" duration-ms="125">
+  <suite started-at="2021-03-29T19:35:56 IST" name="Suite" finished-at="2021-03-29T19:36:26 IST" duration-ms="29708">
     <groups>
-      <group name="deletecustomer">
-        <method signature="Test0.deletecustomer()[pri:0, instance:testng.Test0@757acd7b]" name="deletecustomer" class="testng.Test0"/>
-      </group> <!-- deletecustomer -->
-      <group name="smoke">
-        <method signature="Test0.deleteproject()[pri:0, instance:testng.Test0@757acd7b]" name="deleteproject" class="testng.Test0"/>
-      </group> <!-- smoke -->
-      <group name="deleteproject">
-        <method signature="Test0.deleteproject()[pri:0, instance:testng.Test0@757acd7b]" name="deleteproject" class="testng.Test0"/>
-      </group> <!-- deleteproject -->
-      <group name="createcustomer">
-        <method signature="Test0.createcustomer()[pri:0, instance:testng.Test0@757acd7b]" name="createcustomer" class="testng.Test0"/>
-      </group> <!-- createcustomer -->
     </groups>
-    <test started-at="2021-03-25T20:23:39 IST" name="Test" finished-at="2021-03-25T20:23:39 IST" duration-ms="125">
-      <class name="testng.Test0">
-        <test-method signature="createcustomer()[pri:0, instance:testng.Test0@757acd7b]" started-at="2021-03-25T20:23:39 IST" name="createcustomer" finished-at="2021-03-25T20:23:39 IST" duration-ms="22" status="PASS">
+    <test started-at="2021-03-29T19:35:56 IST" name="Test1" finished-at="2021-03-29T19:36:12 IST" duration-ms="15730">
+      <class name="testng.Tc1">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Tc1@1d8bd0de]" started-at="2021-03-29T19:35:56 IST" name="openapp" finished-at="2021-03-29T19:36:05 IST" duration-ms="8433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login()[pri:0, instance:testng.Tc1@1d8bd0de]" started-at="2021-03-29T19:36:05 IST" name="login" finished-at="2021-03-29T19:36:10 IST" duration-ms="5638" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[createcustomer]]>
+              <![CDATA[]]>
             </line>
             <line>
-              <![CDATA[hello]]>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE3MDI2NzYxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createcustomer -->
-        <test-method signature="deletecustomer()[pri:0, instance:testng.Test0@757acd7b]" started-at="2021-03-25T20:23:39 IST" name="deletecustomer" finished-at="2021-03-25T20:23:39 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Tc1@1d8bd0de]" started-at="2021-03-29T19:36:10 IST" name="closeapp" finished-at="2021-03-29T19:36:12 IST" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testng.Tc1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-03-29T19:35:56 IST" name="Test2" finished-at="2021-03-29T19:36:26 IST" duration-ms="29708">
+      <class name="testng.Tc3">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Tc3@4e268090]" started-at="2021-03-29T19:35:56 IST" name="openapp" finished-at="2021-03-29T19:36:06 IST" duration-ms="9488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="createapage()[pri:0, instance:testng.Tc3@4e268090]" started-at="2021-03-29T19:36:06 IST" name="createapage" finished-at="2021-03-29T19:36:13 IST" duration-ms="6963" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[deletecustomer]]>
+              <![CDATA[Log in to Facebook]]>
             </line>
             <line>
-              <![CDATA[createcustomer]]>
+              <![CDATA[https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
             </line>
           </reporter-output>
-        </test-method> <!-- deletecustomer -->
-        <test-method signature="deleteproject()[pri:0, instance:testng.Test0@757acd7b]" started-at="2021-03-25T20:23:39 IST" name="deleteproject" finished-at="2021-03-25T20:23:39 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- createapage -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Tc3@4e268090]" started-at="2021-03-29T19:36:13 IST" name="closeapp" finished-at="2021-03-29T19:36:17 IST" duration-ms="4269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testng.Tc3 -->
+      <class name="testng.Tc2">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Tc2@1bb266b3]" started-at="2021-03-29T19:36:17 IST" name="openapp" finished-at="2021-03-29T19:36:22 IST" duration-ms="5113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="clickonlink()[pri:0, instance:testng.Tc2@1bb266b3]" started-at="2021-03-29T19:36:22 IST" name="clickonlink" finished-at="2021-03-29T19:36:25 IST" duration-ms="2854" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[deleteproject]]>
+              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- deleteproject -->
-      </class> <!-- testng.Test0 -->
-    </test> <!-- Test -->
+        </test-method> <!-- clickonlink -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Tc2@1bb266b3]" started-at="2021-03-29T19:36:25 IST" name="closeapp" finished-at="2021-03-29T19:36:26 IST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testng.Tc2 -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
